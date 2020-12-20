@@ -15,18 +15,15 @@
 
 ## About Competition
 
-### Description
+### <br>Description</br>
 ある推論では,地球には70億人を超える人々がいて、天の川銀河には3000億を超える星々が存在しているらしい。これと比較すると、人間の大人の体内には37兆もの細胞がある。これらの細胞の間の働きと関係を決定することは、途方もないことです。もし私達が細胞の働きについてより理解すれば、人間の健康の多くの範囲が影響されるでしょう。この大量のデータについての問題は、Kaggleのコミュニティに最適なのです。
     
-人のゲノム研究が人のDNAの全体をマッピングしたのと同様に、
-Our best estimates show there are over 7 billion people on the planet and 300 billion stars in the Milky Way galaxy. By comparison, the adult human body contains 37 trillion cells. To determine the function and relationship among these cells is a monumental undertaking. Many areas of human health would be impacted if we better understand cellular activity. A problem with this much data is a great match for the Kaggle community.
+人のゲノム研究が人のDNAの全体をマッピングしたのと同様に、人間の生体分子アトラスプログラム(HubMAP)は、主要な取り組みです。国立衛生研究(NIH)がスポンサーのHuBMAPは歴史上初めて糸球体機能組織単位のレベルで人体をマッピングするためのフレームワークの開発を促進するために取り組んでいます。HuBMAPは世界最大の共同生物学研究の1つになることを望んでおり、細胞レベルでの人体のオープンマップになることを目指しています。
 
-Just as the Human Genome Project mapped the entirety of human DNA, the Human BioMolecular Atlas Program (HuBMAP) is a major endeavor. Sponsored by the National Institutes of Health (NIH), HuBMAP is working to catalyze the development of a framework for mapping the human body at a level of glomeruli functional tissue units for the first time in history. Hoping to become one of the world’s largest collaborative biological projects, HuBMAP aims to be an open map of the human body at the cellular level.
+このコンペ、「Hacking the Kidney」では、単一細胞である人間の腎臓についてのマッピングをすることから始めます。
 
-This competition, “Hacking the Kidney," starts by mapping the human kidney at single cell resolution.
+あなた達の課題は、様々な組織準備パイプラインを通じて、機能組織ユニットたち(FTUs)を検出することです。FTUとは、「毛細血管を中心とする3次元の細胞のブロックであり、このブロック内にある細胞は、ブロック内の他の細胞から拡散距離内にあるようなもの」(de Bono, 2013)と定義されます。このコンペのゴールは、成功し、堅牢なFTU検出器の実装です。
 
-Your challenge is to detect functional tissue units (FTUs) across different tissue preparation pipelines. An FTU is defined as a “three-dimensional block of cells centered around a capillary, such that each cell in this block is within diffusion distance from any other cell in the same block” (de Bono, 2013). The goal of this competition is the implementation of a successful and robust glomeruli FTU detector.
+また、追加の検討のために、調査結果を審査員団に提示する機会もあります。 提出が成功すると、細胞間の関係が個人の健康にどのように影響するかを判断するために必要なツール、リソース、および細胞アトラスが構築されます。
 
-You will also have the opportunity to present your findings to a panel of judges for additional consideration. Successful submissions will construct the tools, resources, and cell atlases needed to determine how the relationships between cells can affect the health of an individual.
-
-Advancements in HuBMAP will accelerate the world’s understanding of the relationships between cell and tissue organization and function and human health. These datasets and insights can be used by researchers in cell and tissue anatomy, pharmaceutical companies to develop therapies, or even parents to show their children the magnitude of the human body.
+HuBMAPの進歩によって細胞と組織の組織、機能と人間の健康の間の関係について世界の理解が加速します。これらのデータセットと見通しは細胞や組織解剖学の研究者、製薬会社による治療法の発展、あるいは親が子供に人体の大きさを示すために使うことが出来ます。
