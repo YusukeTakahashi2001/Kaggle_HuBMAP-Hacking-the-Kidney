@@ -39,5 +39,5 @@ PAS腎臓画像が含まれています。糸球体FTUアノテーションは20
 
 チームは、PAS染色顕微鏡データで糸球体を識別するセグメンテーションアルゴリズムを開発する研究に招待されます。 FTUセグメンテーションをサポートするために、他の外部データや事前トレーニング済みの機械学習モデルを使用することは大丈夫です。 使用されるすべてのデータとすべてのコードは、<a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International（CC BY 4.0）</a>でリリースする必要があります。
 
-### The Dataset
+#### The Dataset
 
