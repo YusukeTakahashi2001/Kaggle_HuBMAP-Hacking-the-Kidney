@@ -31,7 +31,7 @@ HuBMAPの進歩によって細胞と組織の組織、機能と人間の健康�
 
 ### <br>Data Description</br>
 
-このハッカソンで使われるHuBMAPデータは11の新鮮な冷凍、及び９枚のホルマリン埋め込みパラフィン(FFPE)no
+このコンペで使われるHuBMAPデータは11の新鮮な冷凍、及び９枚のホルマリン埋め込みパラフィン(FFPE)の
 PAS腎臓画像が含まれています。糸球体FTUアノテーションは20の組織サンプル全てに存在します。これらのいくつかはトレーニング用に共有され、その他は提出された際の審査に使用されます。
 
 60万を超える糸球体が腎臓に存在し、<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ar.1092320205"> (Nyengaard, 1992)</a>一般的に正常な腎臓は直径100から350μmのほぼ球の形をしています<a href ="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</a>。
@@ -48,5 +48,6 @@ PAS腎臓画像が含まれています。糸球体FTUアノテーションは20
 
 #### File Structure 
 JSONファイルは次のように構成されており,各機能には次のようなものがあります.
-- タイプ(機能)とオブジェクトタイプID(PathAnnotationObject).全てのファイルで同じであり,信号を送らないことに注意してください.
-- 
+- 'Type'(機能)とオブジェクトタイプの'ID'(PathAnnotationObject).全てのファイルで同じであり,信号を送らないことに注意してください.
+- 'Geometry'には機能の囲みボリュームのための座標ありのポリゴンが含まれています.
+
