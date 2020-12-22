@@ -1,6 +1,6 @@
-# modelsディレクトリ　Infomation
+# modelsフォルダ　Infomation
 
-modelsディレクトリには学習モデルを配置し、ipynbファイルと別にすることでmodelの使い回しを考慮する。
+modelsフォルダには学習モデルを配置し、ipynbファイルと別にすることでmodelの使い回しを考慮する。
 
 - input
 

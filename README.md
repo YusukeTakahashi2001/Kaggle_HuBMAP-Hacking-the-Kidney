@@ -1,4 +1,4 @@
-![Comp](./data/info/images/readme/001_compheader.png)
+![Comp](./data/info/images/readme/001_comp-header.png)
 # Kaggle HuBMAP-Hacking-the-Kidney
 
 ## Dataset
