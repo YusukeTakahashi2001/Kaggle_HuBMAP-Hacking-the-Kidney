@@ -29,7 +29,9 @@
 <hr>
 
 ## Memo
-- 
+- 提出ファイルは<br>submision.csv</br>じゃないとだめ！
+- 提出締め切りはFebruary 1,2021！(11:59 PM UTC => 日本時間 8:59 AM February 2,2021)
+- 評価指標は[Dice coefficient]("https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient")(日本語和訳なし)
 
 ## About Competition
 
@@ -81,7 +83,21 @@ JSONファイルは次のように構成されており,各機能には次のよ
 
 |Name|Explanation|
 |---|---|
-
+|image_file|画像のファイル名。拡張子は.tiff|
+|width_pixels|画像のwidth|
+|height_pixels|画像のheight|
+|glomerulus_segmentation_file|糸球体の画像領域(ファイル名)。拡張子は.json|
+|patient_number|患者の番号(固有)|
+|race|人種。Black or Africa:黒人もしくはアフリカ人,White:白人|
+|ethnicity|民族性？よくわかんない。ヒスパニックやら何やら|
+|sex|性別|
+|age|年齢|
+|weight_kilograms|体重(kg)|
+|height_centimeters|身長(cm)|
+|bmi_kg/m^2|BMI値|
+|laterality|(ラテラリティ)右側or左側？右利き左利きのことなのかは不明|
+|percent_cortex|現時点で不明。腎皮質？大体50~80%|
+|percent_medulla||
 <hr>
 
 ## Log
@@ -89,4 +105,9 @@ JSONファイルは次のように構成されており,各機能には次のよ
 ### 20201223
 - Join
 - 基本的なフォルダ構成完了
-- comet_mlのAPIとかdata_ignoreフォルダ内に配置したい。
+- comet_mlのAPIとかdata_ignoreフォルダ内に配置したい。(完了)
+- Column infoの作成
+    percent_certexの意味を調べてくれ明日の俺。
+    medullaもよろしく。
+- 腎臓の部位？説明画像見つけた！
+    ![KidneyAnatomy](data/info/images/readme/Log-20201223-KidneyAnatomy.png)
