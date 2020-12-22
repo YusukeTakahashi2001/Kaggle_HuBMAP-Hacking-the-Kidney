@@ -1,1 +1,6 @@
 datasets/*
+features/*
+models/*
+!/datasets/datasets-info.md
+!/features/features-info.md
+!/models/models-info.md
