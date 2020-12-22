@@ -1,6 +1,11 @@
 ![Comp](./data/info/images/readme/001_comp-header.png)
 # Kaggle HuBMAP-Hacking-the-Kidney
 
+
+## Info
+
+- <a href="https://github.com/YusukeTakahashi2001/Kaggle_HuBMAP-Hacking-the-Kidney/projects/1">Project Board</a>
+- <a href="https://www.comet.ml/yusuketakahashi2001/kaggle-hubmap-hacking-the-kidney/view/im79MrUJdAmu3N0Eoy8CD97ex">Comet</a>
 ## Dataset
 |Name|Detail|Ref|
 |---|---|---|
@@ -11,6 +16,12 @@
 |No.|Status|Name|Detail|Date|Url|
 |---|---|---|---|---|---|
 |Dummy|Dummy|Dummy|Dummy|Dummy|Dummy|
+<hr>
+
+## Features
+|Name|Shape|size(MB)|Detail|
+|---|---|---|---|
+|Dummy|Dummy|Dummy|Dummy|
 <hr>
 
 ## Memo
@@ -58,9 +69,20 @@ JSONファイルは次のように構成されており,各機能には次のよ
 
 オブジェクトには固有のIDを持ってない.画像についての予測はすべての画像はRLEにエンコードされたマスク.マスクは,エンコード時にバイナリじゃないとだめ.0はマスクされたピクセルがないことを示し,1はマスクされたピクセルがあることを示します.
 
-'<br>train.csv</br>'には,それぞれの画像に対しての固有のIDを持っており,同様に画像内のオブジェクトのマスクのRLEエンコード表現が含まれています.詳しくは'evaluation'を参考.
-'<br>HuBMAP-20-dataset_information.csv</br>'には追加の情報(匿名化された患者データを含む)が入っています.
+<br>train.csv</br>には,それぞれの画像に対しての固有のIDを持っており,同様に画像内のオブジェクトのマスクのRLEエンコード表現が含まれています.詳しくは<br>evaluation</br>を参考.
+<br>HuBMAP-20-dataset_information.csv</br>には追加の情報(匿名化された患者データを含む)が入っています.
+<hr>
+
+#### Column info
+
+|Name|Explanation|
+|---|---|
+
 <hr>
 
 ## Log
 
+### 20201223
+- Join
+- 基本的なフォルダ構成完了
+- comet_mlのAPIとかdata_ignoreフォルダ内に配置したい。
