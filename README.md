@@ -4,8 +4,12 @@
 
 ## Info
 
-- <a href="https://github.com/YusukeTakahashi2001/Kaggle_HuBMAP-Hacking-the-Kidney/projects/1">Project Board</a>
-- <a href="https://www.comet.ml/yusuketakahashi2001/kaggle-hubmap-hacking-the-kidney/view/im79MrUJdAmu3N0Eoy8CD97ex">Comet</a>
+- <a href="https://github.com/YusukeTakahashi2001/Kaggle_HuBMAP-Hacking-the-Kidney/projects/1" target="_blank">Project Board</a>
+- <a href="https://www.comet.ml/yusuketakahashi2001/kaggle-hubmap-hacking-the-kidney/view/im79MrUJdAmu3N0Eoy8CD97ex" target="_blank">Comet</a>
+
+
+<hr>
+
 ## Dataset
 |Name|Detail|Ref|
 |---|---|---|
