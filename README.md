@@ -13,6 +13,9 @@
 |Dummy|Dummy|Dummy|Dummy|Dummy|Dummy|
 <hr>
 
+## Memo
+- 
+
 ## About Competition
 
 ### <br>Competition Description</br>
