@@ -95,7 +95,7 @@ JSONファイルは次のように構成されており,各機能には次のよ
 |weight_kilograms|体重(kg)|
 |height_centimeters|身長(cm)|
 |bmi_kg/m^2|BMI値|
-|laterality|(ラテラリティ)右側or左側？右利き左利きのことなのかは不明|
+|laterality|(ラテラリティ)腎臓が左右どちらか。Right or Left。左右で高さが違うらしい.|
 |percent_cortex|腎皮質の割合(50~80%)。髄質と腎被膜に挟まれており、|
 |percent_medulla|腎臓の髄質の割合(20%-50%)。外層と内装に別れており、腎錐体などから構成される。詳しくは<a href="./data/info/pdf/001_Medulla.pdf">001_Medulla</a>|
 
