@@ -111,8 +111,8 @@ JSONファイルは次のように構成されており,各機能には次のよ
     medullaもよろしく。<==当日調べた(偉い!)
 - 腎臓の部位？説明画像見つけた！
 
-<img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="500">
-<img src="./data/info/images/readme/Log-202012230medulla.png" width="500">
+    <img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="500">
+    <img src="./data/info/images/readme/Log-202012230medulla.png" width="500">
 
 - 糸球体って何？
     >"腎臓の構造と働き"
@@ -122,3 +122,5 @@ JSONファイルは次のように構成されており,各機能には次のよ
     >"ヒスパニック"
     >"ヒスパニックとは、アメリカ合衆国における、スペイン語を日常語とするラテンアメリカ系の住民の総称。主にメキシコからの移民が多い。白人や黒人などは肌の色で判断するが、ヒスパニックの場合は肌の色で判断しない。ヒスパニックの特徴としては、カトリック信者が多い点や、人口増加率が高く若年労働力が豊富な点、スペイン語のみの地域社会を形成し、独自の文化や価値観を維持する傾向にある点などが挙げられる。"
     >>https://www.weblio.jp/content/%E3%83%92%E3%82%B9%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF
+
+### 20201224
