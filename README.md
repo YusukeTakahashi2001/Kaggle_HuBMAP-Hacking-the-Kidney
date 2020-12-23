@@ -96,8 +96,9 @@ JSONファイルは次のように構成されており,各機能には次のよ
 |height_centimeters|身長(cm)|
 |bmi_kg/m^2|BMI値|
 |laterality|(ラテラリティ)右側or左側？右利き左利きのことなのかは不明|
-|percent_cortex|現時点で不明。腎皮質？大体50~80%|
-|percent_medulla|現時点で不明。腎臓の髄質？代替20-45%|
+|percent_cortex|腎皮質の割合(50~80%)。髄質と腎被膜に挟まれており、|
+|percent_medulla|腎臓の髄質の割合(20%-50%)。外層と内装に別れており、腎錐体などから構成される。詳しくは<a href="./data/info/pdf/001_Medulla.pdf">001_Medulla</a>|
+
 <hr>
 
 ## Log
@@ -111,5 +112,10 @@ JSONファイルは次のように構成されており,各機能には次のよ
     medullaもよろしく。
 - 腎臓の部位？説明画像見つけた！
 
-<img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="300">
-<img src="./data/info/images/readme/Log-202012230medulla.png" width="300">
+<img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="500">
+<img src="./data/info/images/readme/Log-202012230medulla.png" width="500">
+
+- 糸球体って何？
+    >"腎臓の構造と働き"
+    >"腎臓の重要な働きのひとつに、血液中の老廃物や塩分をろ過し、尿として体の外に排出することがあります。この働きをしているのが糸球体です。細い毛細血管が毛糸の球のように丸まってできているので「糸球体」と呼ばれます。この糸球体は大体0.1ミリ～0.2ミリほどの大きさですが、１つの腎臓に約100万個の糸球体があります。この糸球体はふるいのような構造をしており、心臓から腎臓に流れ込んできた血液が、この糸球体を通ると、老廃物がふるいを通って濾過されます。そして赤血球やたんぱくなどは濾過されず、きれいになった血液が、腎臓から出ていきます。"
+    >>https://jsn.or.jp/general/kidneydisease/symptoms01.php#p-001
