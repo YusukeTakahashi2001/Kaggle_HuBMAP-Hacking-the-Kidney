@@ -31,8 +31,7 @@
 ## Memo
 - 提出ファイルは<br>submision.csv</br>じゃないとだめ！
 - 提出締め切りはFebruary 1,2021！(11:59 PM UTC => 日本時間 8:59 AM February 2,2021)
-- 評価指標は[Dice coefficient]("https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient")(日本語和訳なし)
-
+- 評価指標は<a href ="https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient">Dice Coefficient</a>(日本語和訳なし)
 ## About Competition
 
 ### <br>Competition Description</br>
@@ -89,14 +88,14 @@ JSONファイルは次のように構成されており,各機能には次のよ
 |glomerulus_segmentation_file|糸球体の画像領域(ファイル名)。拡張子は.json|
 |patient_number|患者の番号(固有)|
 |race|人種。Black or Africa:黒人もしくはアフリカ人,White:白人|
-|ethnicity|民族性？よくわかんない。ヒスパニックやら何やら|
+|ethnicity|民族性？ヒスパニックやらラテン系やら.このコンペとの関連性は現在未知.|
 |sex|性別|
 |age|年齢|
 |weight_kilograms|体重(kg)|
 |height_centimeters|身長(cm)|
 |bmi_kg/m^2|BMI値|
 |laterality|(ラテラリティ)腎臓が左右どちらか。Right or Left。左右で高さが違うらしい.|
-|percent_cortex|腎皮質の割合(50~80%)。髄質と腎被膜に挟まれており、|
+|percent_cortex|腎皮質の割合(50~80%)。髄質と腎被膜に挟まれており、内部に糸球体を持つ.|
 |percent_medulla|腎臓の髄質の割合(20%-50%)。外層と内装に別れており、腎錐体などから構成される。詳しくは<a href="./data/info/pdf/001_Medulla.pdf">001_Medulla</a>|
 
 <hr>
@@ -109,7 +108,7 @@ JSONファイルは次のように構成されており,各機能には次のよ
 - comet_mlのAPIとかdata_ignoreフォルダ内に配置したい。(完了)
 - Column infoの作成
     percent_certexの意味を調べてくれ明日の俺。
-    medullaもよろしく。
+    medullaもよろしく。<==当日調べた(偉い!)
 - 腎臓の部位？説明画像見つけた！
 
 <img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="500">
@@ -119,3 +118,7 @@ JSONファイルは次のように構成されており,各機能には次のよ
     >"腎臓の構造と働き"
     >"腎臓の重要な働きのひとつに、血液中の老廃物や塩分をろ過し、尿として体の外に排出することがあります。この働きをしているのが糸球体です。細い毛細血管が毛糸の球のように丸まってできているので「糸球体」と呼ばれます。この糸球体は大体0.1ミリ～0.2ミリほどの大きさですが、１つの腎臓に約100万個の糸球体があります。この糸球体はふるいのような構造をしており、心臓から腎臓に流れ込んできた血液が、この糸球体を通ると、老廃物がふるいを通って濾過されます。そして赤血球やたんぱくなどは濾過されず、きれいになった血液が、腎臓から出ていきます。"
     >>https://jsn.or.jp/general/kidneydisease/symptoms01.php#p-001
+- ヒスパニックって何?
+    >"ヒスパニック"
+    >"ヒスパニックとは、アメリカ合衆国における、スペイン語を日常語とするラテンアメリカ系の住民の総称。主にメキシコからの移民が多い。白人や黒人などは肌の色で判断するが、ヒスパニックの場合は肌の色で判断しない。ヒスパニックの特徴としては、カトリック信者が多い点や、人口増加率が高く若年労働力が豊富な点、スペイン語のみの地域社会を形成し、独自の文化や価値観を維持する傾向にある点などが挙げられる。"
+    >>https://www.weblio.jp/content/%E3%83%92%E3%82%B9%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF
