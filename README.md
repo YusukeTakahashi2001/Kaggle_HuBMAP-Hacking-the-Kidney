@@ -97,7 +97,7 @@ JSONファイルは次のように構成されており,各機能には次のよ
 |bmi_kg/m^2|BMI値|
 |laterality|(ラテラリティ)右側or左側？右利き左利きのことなのかは不明|
 |percent_cortex|現時点で不明。腎皮質？大体50~80%|
-|percent_medulla||
+|percent_medulla|現時点で不明。腎臓の髄質？代替20-45%|
 <hr>
 
 ## Log
@@ -110,4 +110,6 @@ JSONファイルは次のように構成されており,各機能には次のよ
     percent_certexの意味を調べてくれ明日の俺。
     medullaもよろしく。
 - 腎臓の部位？説明画像見つけた！
-    ![KidneyAnatomy](data/info/images/readme/Log-20201223-KidneyAnatomy.png)
+
+<img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="300">
+<img src="./data/info/images/readme/Log-202012230medulla.png" width="300">
