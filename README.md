@@ -112,7 +112,7 @@ JSONファイルは次のように構成されており,各機能には次のよ
 - 腎臓の部位？説明画像見つけた！
 
     <img src="./data/info/images/readme/Log-20201223-KidneyAnatomy.png" width="500">
-    <img src="./data/info/images/readme/Log-202012230medulla.png" width="500">
+    <img src="./data/info/images/readme/Log-20201223-medulla.png" width="500">
 
 - 糸球体って何？
     >"腎臓の構造と働き"
@@ -128,3 +128,12 @@ JSONファイルは次のように構成されており,各機能には次のよ
     要約
     - HuBMAPは人体の組織を顕微鏡で撮った画像から医学的に組織機能ユニット(FTUs)の関係を調べるところ.
     - 膵臓内のFTUsとは? => Glomeruli(糸球体)だよー.糸球体については[Log-20201223]を参照
+    - PC がぶっ壊れたので作業できず...
+
+### 20201228
+- 4日もできてない！まずい...
+- 画像の黒いつぶつぶが糸球体.
+
+    <img src="./data/info/images/readme/Log-20201228-1.png" width="300">
+
+- 
