@@ -80,6 +80,8 @@ JSONファイルは次のように構成されており,各機能には次のよ
 
 #### Column info
 
+Detail about HuBMAP-20-dataset_information
+
 |Name|Explanation|
 |---|---|
 |image_file|画像のファイル名。拡張子は.tiff|
@@ -124,32 +126,40 @@ JSONファイルは次のように構成されており,各機能には次のよ
     >>https://www.weblio.jp/content/%E3%83%92%E3%82%B9%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF
 
 ### 20201224
+
 - 前回に引き続き,ドメイン知識を深める.
     要約
+
     - HuBMAPは人体の組織を顕微鏡で撮った画像から医学的に組織機能ユニット(FTUs)の関係を調べるところ.
     - 膵臓内のFTUsとは? => Glomeruli(糸球体)だよー.糸球体については[Log-20201223](#20201223)を参照
     - PC がぶっ壊れたので作業できず...
 
+
 ### 20201228
+
 - 4日もできてない！まずい...
 - 画像の黒いつぶつぶが糸球体.
     <img src="./data/info/images/readme/Log-20201228-1.png" width="300">
 - 糸球体マスクは手作業のものとDeepLearningのが混ざってる.JSONファイルに糸球体の座標リストが入ってる
 
 ### 20201229
+
 - とりあえず他の方のを参考に動かしてみる.ドメイン知識はとりあえず終了.
 - 年末忙しくて作業できてない.
 
 ### 20201230
+
 - フォーマット済み文字数リテラル(f文字列)について.
     => print()の中に文字列と変数を一緒にするとき楽!
-    ex.1)f文字列を使用しない場合.
-        `
-        print("Number is :{}".format(num_a))
-        `
-    
-    ex.2)f文字列を使用する場合.
-        `
-        print(f"Number is : {num_a}")
-        `
+    ex.1)f文字列を使用しない場合.　　
 
+        `print("Number is :{}".format(num_a))`
+
+    
+    ex.2)f文字列を使用する場合.　　
+
+        `print(f"Number is : {num_a}")`
+
+### 20201231
+
+- utility_funcの内容の理解.
