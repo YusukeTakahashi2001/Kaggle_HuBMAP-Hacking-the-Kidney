@@ -182,10 +182,25 @@ Detail about HuBMAP-20-dataset_information
     2. デコードされたマスクの用意(rle2maskの利用)
         shapeをTiff画像と同じにする.
     3. マスク,tiff画像のshapeを表示
-    4. もし引数で<br>scale</br>が指定されていればリサイズ.
+    4. もし引数でscaleが指定されていればリサイズ.
         resize後のshapeを表示
     5. returnされるのは
         1. resizeされたtiff画像
         2. resizeされたmask
 
-    
+    #### read_test_image
+    read_imageのmaskがないバージョン
+
+    #### plot_image_and_mask
+    tiff画像とマスクを別々に表示
+    1. 画像のみを表示
+    2. 画像とマスクを重ねて表示
+    3. マスクのみを表示
+
+    #### plot_grid_image_with_mask
+    `plot_image_and_mask(image, mask, image_id):`
+    グリッド表示で画像とマスクを表示
+
+    #### plot_slice_image_and_mask
+    拡大した画像の表示
+    `plot_slice_image_and_mask(image, mask, start_h, end_h, start_w, end_w)`
