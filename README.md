@@ -139,6 +139,7 @@ Detail about HuBMAP-20-dataset_information
 
 - 4日もできてない！まずい...
 - 画像の黒いつぶつぶが糸球体.
+
     <img src="./data/info/images/readme/Log-20201228-1.png" width="300">
 - 糸球体マスクは手作業のものとDeepLearningのが混ざってる.JSONファイルに糸球体の座標リストが入ってる
 
@@ -153,13 +154,38 @@ Detail about HuBMAP-20-dataset_information
     => print()の中に文字列と変数を一緒にするとき楽!
     ex.1)f文字列を使用しない場合.　　
 
-        `print("Number is :{}".format(num_a))`
+    `print("Number is :{}".format(num_a))`
 
     
     ex.2)f文字列を使用する場合.　　
 
-        `print(f"Number is : {num_a}")`
+    ` print(f"Number is : {num_a}") `
 
 ### 20201231
 
 - utility_funcの内容の理解.
+    #### rle2mask: rleにエンコードされたものをデコードする
+    - returnされるのはリサイズされた画像
+    - 引数
+    1. maskのRLEされたもの
+    2. デコード後の画像shape
+
+    #### mask2rle:rle2maskの逆
+    - returnされるのは分からんエンコードされた文字列?
+    `' '.join(str(x) for x in runs) `
+    - 引数
+    1. img
+
+    #### read_image
+    Overview
+    1. Tiff画像の読み込み
+    2. デコードされたマスクの用意(rle2maskの利用)
+        shapeをTiff画像と同じにする.
+    3. マスク,tiff画像のshapeを表示
+    4. もし引数で<br>scale</br>が指定されていればリサイズ.
+        resize後のshapeを表示
+    5. returnされるのは
+        1. resizeされたtiff画像
+        2. resizeされたmask
+
+    

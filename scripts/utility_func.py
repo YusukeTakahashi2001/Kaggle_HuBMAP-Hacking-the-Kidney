@@ -33,6 +33,19 @@ def rle2mask(mask_rle, shape):
         img[lo : hi] = 1
     return img.reshape(shape).T
 
+def mask2rle(img):
+    '''
+    img: numpy array, 1 - mask, 0 - background
+    Returns run length as string formated
+    '''
+    pixels= img.T.flatten()
+    pixels = np.concatenate([[0], pixels, [0]])
+    runs = np.where(pixels[1:] != pixels[:-1])[0] + 1
+    runs[1::2] -= runs[::2]
+    return ' '.join(str(x) for x in runs)
+ 
+
+
 def read_image(image_id, scale=None, verbose=1):
     image = tifffile.imread(
         os.path.join(DATASET_PATH, f"train/{image_id}.tiff")
