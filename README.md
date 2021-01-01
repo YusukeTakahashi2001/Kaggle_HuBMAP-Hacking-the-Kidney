@@ -30,7 +30,7 @@
 
 ## Memo
 - 提出ファイルは<br>submision.csv</br>じゃないとだめ！
-- 提出締め切りはFebruary 1,2021！(11:59 PM UTC => 日本時間 8:59 AM February 2,2021)
+- 提出締め切りは~~February 1,2021！~~(11:59 PM UTC => 日本時間 8:59 AM February 2,2021)
 - 評価指標は<a href ="https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient">Dice Coefficient</a>(日本語和訳なし)
 ## About Competition
 
