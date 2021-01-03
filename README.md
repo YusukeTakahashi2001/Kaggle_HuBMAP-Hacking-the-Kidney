@@ -204,3 +204,9 @@ Detail about HuBMAP-20-dataset_information
     #### plot_slice_image_and_mask
     拡大した画像の表示
     `plot_slice_image_and_mask(image, mask, start_h, end_h, start_w, end_w)`
+
+
+### 20210103
+
+- segmentation-models-pytorchを導入
+
