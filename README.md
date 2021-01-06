@@ -13,7 +13,13 @@
 ## Dataset
 |Name|Detail|Ref|
 |---|---|---|
-|dummy |Dummy|Dummy|
+|train/|trainのtiff画像,maskに関するjsonファイル|None|
+|test/|testのtiff画像,jsonファイル|None|
+|zip/|resizeされたtrain画像,mask画像|extension:png|
+|HuBMAP-20-dataset_information.csv|患者の詳細|None|
+|sample_submission.csv|提出例のcsvファイル|None|
+|train.csv|患者IDとエンコードが含まれたcsvファイル|None|
+
 <hr>
 
 ## Paper
@@ -206,7 +212,18 @@ Detail about HuBMAP-20-dataset_information
     `plot_slice_image_and_mask(image, mask, start_h, end_h, start_w, end_w)`
 
 
-### 20210103
+### 20210105
+すっごく挫折しそう...
+まずセグメンテーションに関する知識が少なくてコード見てもわからん
+続いて成人式延期のハガキ...　がん萎えプツプツ怒りフィーバー
 
-- segmentation-models-pytorchを導入
+- UneXt50,ASPPって何ぞ?
+- Feature Pyramid Network [FPN](https://qiita.com/TaigaHasegawa/items/653abc81ac4ee1f0d7b8)
+    <br>様々なスケールの物体を認識し,検出することが目的.</br>
+    わからなかった用語
+    - ボトムアップ
+    - トップダウン
+
+- 今回参考にした人のモデル
+![](https://i.ibb.co/z5KxDzm/Une-Xt50-1.png)
 
