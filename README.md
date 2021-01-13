@@ -31,7 +31,7 @@
 ## Features
 |Name|Shape|size(MB)|Detail|
 |---|---|---|---|
-|Dummy|Dummy|Dummy|Dummy|
+|Dummy|Dummy|Dummy||
 <hr>
 
 ## Memo
